@@ -38,6 +38,19 @@ jobs:
           LOOKBACK_DAYS: "3"
         run: python main.py
 
+      - name: Send digest to Feishu
+        env:
+          FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+          FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+          FEISHU_RECEIVE_ID: ${{ secrets.FEISHU_RECEIVE_ID }}
+        run: |
+          if [ -z "${FEISHU_APP_ID:-}" ] || [ -z "${FEISHU_APP_SECRET:-}" ] || [ -z "${FEISHU_RECEIVE_ID:-}" ]; then
+            echo "Feishu secrets not set (FEISHU_APP_ID / FEISHU_APP_SECRET / FEISHU_RECEIVE_ID); skip."
+            exit 0
+          fi
+          # 默认取 output/ 下最新 .md（刚生成的日报）；也可用 secrets 或此处写死路径
+          python3 sender/send_feishu.py
+
       - name: Commit output
         run: |
           set -e
