@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ping WeWe RSS
-        run: curl -sf https://app-production-ad4a.up.railway.app/ || true
+        run: curl -sfI "https://rsshub.rssforever.com/latepost" || true

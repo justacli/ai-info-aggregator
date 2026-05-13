@@ -51,7 +51,7 @@ lang = "en"
 
 [[feeds]]
 name = "The Batch (deeplearning.ai)"
-url = "https://rsshub.app/deeplearning/the-batch"
+url = "https://rsshub.rssforever.com/deeplearning/the-batch"
 lang = "en"
 
 [[feeds]]
@@ -181,7 +181,7 @@ lang = "zh"
 
 [[feeds]]
 name = "晚点 LatePost"
-url = "https://rsshub.app/latepost"
+url = "https://rsshub.rssforever.com/latepost"
 lang = "zh"
 
 # 虎嗅：反爬超时，暂停，待后续寻找替代方案
@@ -190,48 +190,52 @@ lang = "zh"
 # url = "https://www.huxiu.com/rss/0.xml"
 # lang = "zh"
 
-# ── 微信公众号（via WeWe RSS）────────────────────────────────
+# ── 微信公众号（via RSSHub + Sogou; public WeWe RSS host was removed）────────
+# Use each account’s WeChat ID (微信号) as the :id segment — not the display name.
 [[feeds]]
 name = "数字生命卡兹克"
-url = "https://app-production-ad4a.up.railway.app/feeds/MP_WXS_3223096120.atom"
+url = "https://rsshub.rssforever.com/wechat/sogou/Rockhazix"
 lang = "zh"
 
 [[feeds]]
 name = "卡尔的AI沃茨"
-url = "https://app-production-ad4a.up.railway.app/feeds/MP_WXS_3871977637.atom"
+url = "https://rsshub.rssforever.com/wechat/sogou/aiwarts101"
 lang = "zh"
 
 [[feeds]]
 name = "饼干哥哥AGI"
-url = "https://app-production-ad4a.up.railway.app/feeds/MP_WXS_2394281674.atom"
+url = "https://rsshub.rssforever.com/wechat/sogou/BingGanGeGeData"
 lang = "zh"
 
-[[feeds]]
-name = "刘小排r"
-url = "https://app-production-ad4a.up.railway.app/feeds/MP_WXS_3251517810.atom"
-lang = "zh"
+# No stable Sogou query found for this account (Chinese name hits the wrong MP).
+# Re-enable when you have the official 微信号, e.g. .../wechat/sogou/your_wxid
+# [[feeds]]
+# name = "刘小排r"
+# url = "https://rsshub.rssforever.com/wechat/sogou/REPLACE_WITH_WXID"
+# lang = "zh"
 
 [[feeds]]
 name = "沃垠AI"
-url = "https://app-production-ad4a.up.railway.app/feeds/MP_WXS_3201599457.atom"
+url = "https://rsshub.rssforever.com/wechat/sogou/WoYin-AI"
 lang = "zh"
 
 [[feeds]]
 name = "AGI Hunt"
-url = "https://app-production-ad4a.up.railway.app/feeds/MP_WXS_3087832081.atom"
+url = "https://rsshub.rssforever.com/wechat/sogou/AGIHunt"
 lang = "zh"
 
 [[feeds]]
 name = "一泽Eze"
-url = "https://app-production-ad4a.up.railway.app/feeds/MP_WXS_3234547650.atom"
+url = "https://rsshub.rssforever.com/wechat/sogou/eze_is"
 lang = "zh"
 
 [[feeds]]
 name = "赛博禅心"
-url = "https://app-production-ad4a.up.railway.app/feeds/MP_WXS_3934419561.atom"
+url = "https://rsshub.rssforever.com/wechat/sogou/gh_520ee42749ed"
 lang = "zh"
 
-[[feeds]]
-name = "第二曲线增长"
-url = "https://app-production-ad4a.up.railway.app/feeds/MP_WXS_3293993092.atom"
-lang = "zh"
+# Sogou matches generic “第二曲线” articles, not this account. Needs a 微信号.
+# [[feeds]]
+# name = "第二曲线增长"
+# url = "https://rsshub.rssforever.com/wechat/sogou/REPLACE_WITH_WXID"
+# lang = "zh"

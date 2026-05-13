@@ -23,7 +23,12 @@ def fetch_feed(feed: dict, lookback_days: int = 1) -> list[dict]:
     """
     cutoff = datetime.now(timezone.utc) - timedelta(days=lookback_days)
 
-    headers = {"User-Agent": "Mozilla/5.0 (compatible; ai-info-aggregator/1.0)"}
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        )
+    }
     try:
         resp = requests.get(feed["url"], headers=headers, timeout=60)
         resp.raise_for_status()
