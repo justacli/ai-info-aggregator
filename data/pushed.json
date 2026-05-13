@@ -3107,6 +3107,276 @@
       "pushed_at": "2026-05-08",
       "title": "550 亿美元！马斯克的「芯片工厂」开始成为现实",
       "score": 8
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1tb3g2r/turns_out_the_adult_content_industry_is_a/",
+      "pushed_at": "2026-05-13",
+      "title": "Turns out the adult content industry is a minefield for solo founders.",
+      "score": 5
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1tb22sw/i_refused_to_pay_for_wispr_flow_voicetotext_so_i/",
+      "pushed_at": "2026-05-13",
+      "title": "I refused to pay for Wispr Flow (voice-to-text) so I spent two weeks rebuilding it. Free, runs locally, macOS only.",
+      "score": 8
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1tbg0lq/i_used_claude_to_build_a_live_election_dashboard/",
+      "pushed_at": "2026-05-13",
+      "title": "I used Claude to build a live election dashboard in 2 days. It handled 430K requests from 24K visitors without spending money",
+      "score": 9
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1tbmmge/i_built_a_tool_to_turn_github_repos_into/",
+      "pushed_at": "2026-05-13",
+      "title": "I built a tool to turn GitHub repos into portfolios… but now I’m not sure if anyone actually needs it.",
+      "score": 5
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1tbhdrq/i_built_a_cost_tracking_cli_for_claude_code/",
+      "pushed_at": "2026-05-13",
+      "title": "I built a cost tracking CLI for Claude Code sessions",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1tbjqmk/after_traveling_to_65_countries_i_still_couldnt/",
+      "pushed_at": "2026-05-13",
+      "title": "After traveling to 65 countries, I still couldn’t find a decent travel app. Here is my story of building one based on my experience as a traveler.",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/SideProject/comments/1tbjn5c/shipped_my_first_ios_app_in_a_few_weeks_a_daily/",
+      "pushed_at": "2026-05-13",
+      "title": "Shipped my first iOS app in a few weeks — a daily geo-guessing puzzle game [ClueMap]",
+      "score": 5
+    },
+    {
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1tb4o95/is_it_easier_to_build_a_business_right_now_or_is/",
+      "pushed_at": "2026-05-13",
+      "title": "Is it easier to build a business right now or is that just what twitter wants us to believe",
+      "score": 5
+    },
+    {
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1tbmapk/my_client_was_manually_calling_40_leads_a_day_we/",
+      "pushed_at": "2026-05-13",
+      "title": "My client was manually calling 40 leads a day. We automated the whole thing and now their sales team only talks to qualified people",
+      "score": 7
+    },
+    {
+      "url": "https://www.latent.space/p/ainews-the-end-of-finetuning",
+      "pushed_at": "2026-05-13",
+      "title": "[AINews] The End of Finetuning",
+      "score": 5
+    },
+    {
+      "url": "https://www.latent.space/p/ainews-thinking-machines-native-interaction",
+      "pushed_at": "2026-05-13",
+      "title": "[AINews] Thinking Machines' Native Interaction Models - TML-Interaction-Small 276B-A12B - advances SOTA Realtime Voice and kills standard VAD",
+      "score": 6
+    },
+    {
+      "url": "https://simonwillison.net/2026/May/12/datasette/#atom-everything",
+      "pushed_at": "2026-05-13",
+      "title": "datasette 1.0a29",
+      "score": 5
+    },
+    {
+      "url": "https://simonwillison.net/2026/May/12/llm/#atom-everything",
+      "pushed_at": "2026-05-13",
+      "title": "llm 0.32a2",
+      "score": 8
+    },
+    {
+      "url": "https://display.dev/",
+      "pushed_at": "2026-05-13",
+      "title": "Show HN: Display.dev, agent-native way to publish HTML or MD behind company auth",
+      "score": 8
+    },
+    {
+      "url": "https://chromewebstore.google.com/detail/clodcapture/mhapejnhlmepeinjmlppoopcoicmgojb",
+      "pushed_at": "2026-05-13",
+      "title": "Show HN: Clodcapture – save and resume Claude.ai chats across sessions",
+      "score": 6
+    },
+    {
+      "url": "https://gitglimpse.com",
+      "pushed_at": "2026-05-13",
+      "title": "Show HN: GitGlimpse – CLI for understanding AI-generated Git diffs",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tb3sja/magicquant_v20_hybrid_mixed_gguf_models_unsloth/",
+      "pushed_at": "2026-05-13",
+      "title": "MagicQuant (v2.0) - Hybrid Mixed GGUF Models + Unsloth Dynamic Learned Quant Configurations + Benchmark table with collapsed winners and more",
+      "score": 9
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tbgtux/i_built_derpy_turtle_the_kokoro_trainer_a_gui_for/",
+      "pushed_at": "2026-05-13",
+      "title": "I built Derpy Turtle: The Kokoro Trainer, a GUI for training better Kokoro voices with RVC",
+      "score": 8
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tb9pwn/luce_dflash_pflash_on_amd_strix_halo_qwen3627b_at/",
+      "pushed_at": "2026-05-13",
+      "title": "Luce DFlash + PFlash on AMD Strix Halo: Qwen3.6-27B at 2.23x decode and 3.05x prefill vs llama.cpp HIP",
+      "score": 8
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tb0uln/examples_add_llamaeval_by_ggerganov_pull_request/",
+      "pushed_at": "2026-05-13",
+      "title": "examples : add llama-eval by ggerganov · Pull Request #21152 · ggml-org/llama.cpp",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tbmee1/save_and_invest_your_money_for_future_rigs/",
+      "pushed_at": "2026-05-13",
+      "title": "Save and invest your money for future rigs",
+      "score": 5
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tbj8ow/finetuning_translategemma4b_to_improve/",
+      "pushed_at": "2026-05-13",
+      "title": "Fine-Tuning TranslateGemma-4B to improve bi-directional English & Welsh translations on an H200 GPU!",
+      "score": 7
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tb8d57/agentic_harness_for_theoretical_physics_research/",
+      "pushed_at": "2026-05-13",
+      "title": "Agentic harness for theoretical physics research",
+      "score": 8
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tb160j/gemma_4_mtp_vs_dflash_on_1x_h100_dense_vs_moe/",
+      "pushed_at": "2026-05-13",
+      "title": "Gemma 4 MTP vs DFlash on 1x H100: dense vs MoE results",
+      "score": 9
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tbbh82/attention_drift_what_autoregressive_speculative/",
+      "pushed_at": "2026-05-13",
+      "title": "Attention Drift: What Autoregressive Speculative Decoding Models Learn",
+      "score": 6
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tb3zxp/local_llm_autocomplete_agentic_coding_on_a_single/",
+      "pushed_at": "2026-05-13",
+      "title": "Local LLM autocomplete + agentic coding on a single 16GB GPU + 64GB RAM",
+      "score": 8
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tbm3j4/antangelmed_100a6b_healthcare_llm/",
+      "pushed_at": "2026-05-13",
+      "title": "AntAngelMed - 100a6b Healthcare LLM",
+      "score": 5
+    },
+    {
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "pushed_at": "2026-05-13",
+      "title": "tinyhumansai/openhuman",
+      "score": 8
+    },
+    {
+      "url": "https://github.com/rohitg00/agentmemory",
+      "pushed_at": "2026-05-13",
+      "title": "rohitg00/agentmemory",
+      "score": 9
+    },
+    {
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "pushed_at": "2026-05-13",
+      "title": "CloakHQ/CloakBrowser",
+      "score": 9
+    },
+    {
+      "url": "https://github.com/millionco/react-doctor",
+      "pushed_at": "2026-05-13",
+      "title": "millionco/react-doctor",
+      "score": 9
+    },
+    {
+      "url": "https://github.com/rasbt/LLMs-from-scratch",
+      "pushed_at": "2026-05-13",
+      "title": "rasbt/LLMs-from-scratch",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "pushed_at": "2026-05-13",
+      "title": "datawhalechina/hello-agents",
+      "score": 7
+    },
+    {
+      "url": "https://github.com/yikart/AiToEarn",
+      "pushed_at": "2026-05-13",
+      "title": "yikart/AiToEarn",
+      "score": 6
+    },
+    {
+      "url": "https://github.com/HKUDS/AI-Trader",
+      "pushed_at": "2026-05-13",
+      "title": "HKUDS/AI-Trader",
+      "score": 7
+    },
+    {
+      "url": "https://36kr.com/p/3807043342475009?f=rss",
+      "pushed_at": "2026-05-13",
+      "title": "36氪首发 | 清华系光计算芯片企业完成数千万天使轮融资，瞄准全波光计算架构",
+      "score": 5
+    },
+    {
+      "url": "https://36kr.com/newsflashes/3807090766241284?f=rss",
+      "pushed_at": "2026-05-13",
+      "title": "“芯驰科技”完成近1亿美金C轮融资",
+      "score": 7
+    },
+    {
+      "url": "https://www.ifanr.com/1665628?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-05-13",
+      "title": "内存正在毁掉一切",
+      "score": 5
+    },
+    {
+      "url": "https://www.ifanr.com/1665667?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-05-13",
+      "title": "早报｜Android 17转型智能系统，深度整合AI/腾讯：微信已读和访客功能「已焊死」，不会开发/李想：理想自研芯片不是跟风",
+      "score": 5
+    },
+    {
+      "url": "https://www.ifanr.com/1665516?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "pushed_at": "2026-05-13",
+      "title": "Markdown 已死，HTML 当立？",
+      "score": 5
+    },
+    {
+      "url": "http://www.geekpark.net/news/364060",
+      "pushed_at": "2026-05-13",
+      "title": "谷歌开了一场「读作 Android，写作 Gemini」的硬件发布会",
+      "score": 6
+    },
+    {
+      "url": "http://www.geekpark.net/news/364058",
+      "pushed_at": "2026-05-13",
+      "title": "对话维他动力余轶南：融资 5 亿，如何跨过从 Demo 到量产的 5 个月",
+      "score": 9
+    },
+    {
+      "url": "http://www.geekpark.net/news/364057",
+      "pushed_at": "2026-05-13",
+      "title": "传可灵计划独立融资上市：300 亿美元的快手长出 200 亿美元的 AI 视频子公司",
+      "score": 9
+    },
+    {
+      "url": "http://www.geekpark.net/news/364044",
+      "pushed_at": "2026-05-13",
+      "title": "OpenAI 前 CTO，拿出了一个「最人性」的 AI",
+      "score": 6
+    },
+    {
+      "url": "http://www.geekpark.net/news/364035",
+      "pushed_at": "2026-05-13",
+      "title": "0.2 元 / 通，淘天用 AI 店小蜜重新定义了电商客服价格",
+      "score": 8
     }
   ]
 }
