@@ -62,7 +62,7 @@ SCORE_PROMPT = """你是一个 AI 信息策展人。请分析以下文章，判�
 - 内容超过 14 天：-1 分
 - 标题党，正文与标题严重不符：-3 分
 
-keep 规则：score >= 7 且 topic != 无关 时为 true。
+keep 规则：score >= 8 且 topic != 无关 时为 true。
 只输出 JSON，不要其他文字。"""
 
 SUMMARY_PROMPT = """请为以下文章生成一段中文摘要，2-3 句话。
@@ -153,13 +153,13 @@ def score_article(article: dict, client: OpenAI) -> dict:
         content=article["content"],
     )
     try:
-        result = _call_with_retry(client, SCORING_MODEL, prompt, max_tokens=384, json_mode=True)
+        result = _call_with_retry(client, SCORING_MODEL, prompt, max_tokens=512, json_mode=True)
         topic = result.get("topic", "无关")
         score = int(result.get("score", 0))
-        # Threshold 5 (4 for GitHub Trending) — calibrated for V4-Flash which scores
+        # Threshold 6 (5 for GitHub Trending) — calibrated for V4-Flash which scores
         # ~1.5 points lower than Haiku on identical input.
         is_github_trending = article.get("source") == "GitHub Trending"
-        threshold = 4 if is_github_trending else 5
+        threshold = 6 if is_github_trending else 6
         keep = score >= threshold and topic != "无关"
         article.update({
             "topic": topic,
@@ -180,7 +180,7 @@ def summarize_article(article: dict, client: OpenAI) -> str:
         content=article["content"],
     )
     try:
-        return _call_with_retry(client, SUMMARY_MODEL, prompt, max_tokens=400, json_mode=False)
+        return _call_with_retry(client, SUMMARY_MODEL, prompt, max_tokens=512, json_mode=False)
     except Exception as e:
         print(f"  [WARN] Summary failed for '{article['title']}': {e}")
         return ""
@@ -215,7 +215,7 @@ def dedup_articles(articles: list[dict], client: OpenAI) -> tuple[list[dict], li
     prompt = DEDUP_PROMPT.format(articles=lines)
 
     try:
-        result = _call_with_retry(client, SCORING_MODEL, prompt, max_tokens=384, json_mode=True)
+        result = _call_with_retry(client, SCORING_MODEL, prompt, max_tokens=512, json_mode=True)
         to_remove = set(result.get("to_remove", []))
     except Exception as e:
         print(f"  [WARN] Dedup failed: {e}, skipping dedup")
@@ -242,7 +242,7 @@ def process_articles(articles: list[dict], api_key: str) -> tuple[list[dict], li
 
     kept = [a for a in scored if a["keep"]]
     rejected = [a for a in scored if not a["keep"]]
-    print(f"  Kept {len(kept)} / {len(scored)} articles (score ≥ 5)")
+    print(f"  Kept {len(kept)} / {len(scored)} articles (score ≥ 6, GitHub Trending ≥ 5)")
 
     print(f"\n[2/3] Deduplicating {len(kept)} articles...")
     kept, dupes = dedup_articles(kept, client)

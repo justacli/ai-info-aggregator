@@ -1,3 +1,4 @@
+import os
 import sys
 import feedparser
 import requests
@@ -9,6 +10,14 @@ if sys.version_info >= (3, 11):
     import tomllib
 else:
     import tomllib
+
+
+def _build_proxies() -> dict | None:
+    http  = os.environ.get("HTTP_PROXY",  "").strip()
+    https = os.environ.get("HTTPS_PROXY", "").strip()
+    if http or https:
+        return {"http": http or None, "https": https or None}
+    return None
 
 
 def load_feeds(config_path: str = "feeds.toml") -> list[dict]:
@@ -30,7 +39,7 @@ def fetch_feed(feed: dict, lookback_days: int = 1) -> list[dict]:
         )
     }
     try:
-        resp = requests.get(feed["url"], headers=headers, timeout=60)
+        resp = requests.get(feed["url"], headers=headers, timeout=60, proxies=_build_proxies())
         resp.raise_for_status()
         parsed = feedparser.parse(resp.content)
     except Exception as e:
