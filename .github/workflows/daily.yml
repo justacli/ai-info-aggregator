@@ -27,7 +27,7 @@ jobs:
       - name: Run aggregator
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          LOOKBACK_DAYS: "1"
+          LOOKBACK_DAYS: "3"
         run: python main.py
 
       - name: Commit output
