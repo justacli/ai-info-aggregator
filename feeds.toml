@@ -2,10 +2,10 @@
 # 每个 feed 需要：url、name（来源显示名）、lang（en/zh）
 
 # ── OPC / 创业案例 ────────────────────────────────────────────
-[[feeds]]
-name = "Indie Hackers"
-url = "https://www.indiehackers.com/feed.xml"
-lang = "en"
+# [[feeds]]
+# name = "Indie Hackers"
+# url = "https://www.indiehackers.com/feed.xml"
+# lang = "en"
 
 # Starter Story：无公开 RSS，内容在付费墙后，暂无方案
 # [[feeds]]
